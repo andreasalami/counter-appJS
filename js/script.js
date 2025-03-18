@@ -3,7 +3,7 @@ const minusButton = document.querySelector(".left-button"); // Pulsante -
 const plusButton = document.querySelector(".right-button"); // Pulsante +
 const resetButton = document.querySelector(".reset-button"); // Pulsante Reset
 
-let count= 0; // Inizializzo il contatore a 0
+let count= localStorage.getItem("counter") ? parseInt(localStorage.getItem("counter")) : 0;
 
 const counterDisplay = document.createElement("h2");
 counterDisplay.textContent = count;
@@ -11,6 +11,7 @@ counterBox.appendChild(counterDisplay);
 
 function updateDisplay() {
     counterDisplay.textContent = count;
+    localStorage.setItem("counter", count);
 }
 // Funzione per il tasto +
 function increment() {

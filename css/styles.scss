@@ -16,7 +16,7 @@ $button-hover-reset: rgb(208, 208, 208);
   position: relative;
   background: $third-color;
   color: $secondary-color;
-  font-family: "Bangers", serif;
+  font-family: "Bebas Neue", serif;
   font-size: 4rem;
   border: none;
   margin-top: 10%;
@@ -36,7 +36,7 @@ html, body {
 }
 
 h2 {
-  font-family: "Bangers", serif;
+  font-family: "Bebas Neue", serif;
   font-size: 6rem;
   text-align: center;
   margin-top: 20px;
@@ -47,7 +47,7 @@ h2 {
   position: fixed;
   background: $secondary-color;
   color: $primary-color;
-  font-family: "Bangers", serif;
+  font-family: "Bebas Neue", serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
@@ -105,7 +105,7 @@ h2 {
 
 .reset-box {
   position: fixed;
-  left: 50%;
+  left: 49%;
   top: 50%;
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -119,7 +119,7 @@ h2 {
   border-style: none;
   border-radius: 25%;
   font-size: 2rem;
-  padding: 10px;
+  text-align: center;
   cursor: pointer;
   &:hover {
     background: $button-hover-reset;
