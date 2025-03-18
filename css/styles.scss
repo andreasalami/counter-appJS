@@ -32,6 +32,7 @@ $button-hover-reset: rgb(208, 208, 208);
 html, body {
   overflow: hidden;
   height: 100%;
+  touch-action: manipulation;
 }
 
 h2 {
