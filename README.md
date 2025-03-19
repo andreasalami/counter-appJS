@@ -11,5 +11,5 @@ I've implemented other two functions:
 If the reset button is easy to understand, let me explain the memory management. 
 It consist in the possibility to refresh or even close your tab without lose your count, that is possible becouse the app, whenever you update your count, save the new value.
 
-<h2>Here's a Screenshot</h2>
+
 
